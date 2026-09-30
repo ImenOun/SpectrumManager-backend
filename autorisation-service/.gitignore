@@ -1,0 +1,72 @@
+# ===== Maven =====
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== IDE =====
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# ===== Fichiers système =====
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Secrets / configuration locale =====
+# Ne pas versionner les fichiers de configuration contenant le mot de passe
+src/main/resources/application.properties
+src/main/resources/application.yml
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+*.env
+.env
+*.pem
+*.key
+*.p12
+*.jks
+kubeconfig
+*.kubeconfig
+
+# ===== Base de données locale =====
+*.db
+*.sqlite
+*.h2.db
+
+# ===== Divers =====
+HELP.md
+docker-compose.override.yml
